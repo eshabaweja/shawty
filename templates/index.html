@@ -6,6 +6,11 @@
     <title>Shawty</title>
 </head>
 <body>
-    <form action=""></form>
+    <h1>Shawty</h1>
+    <i>The handy URL shortener</i>
+    <form method="POST" action="{{ url_for('index')}}">
+        <input type="text" name="long_url" placeholder="Enter the long URL">
+        <button type="submit">shawten</button>
+    </form>
 </body>
 </html>

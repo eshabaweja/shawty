@@ -4,7 +4,7 @@ from utils import url_encode
 app = Flask(__name__)
 
 @app.route("/", methods = ["GET","POST"])
-def home():
+def index():
     if request.method == "POST":
         long_url = request.form['long_url']
         short_url = url_encode.base62_encode(long_url)
