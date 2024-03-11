@@ -11,4 +11,4 @@ python -m utils/init_db.py
 
 # run main program
 echo "Starting application..."
-python -m main.py
+python main.py
