@@ -2,7 +2,7 @@
 ## use shawty to encode your URL
 1. clone this repository
 2. create venv
-3. execute the script `setup.py`
+3. execute the script `setup.sh`
 4. execute `main.py`
 
 ## what I did
